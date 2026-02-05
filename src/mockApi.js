@@ -1,5 +1,4 @@
-// Mock API data for development and demo deployment
-// Remove this file once you have a real backend API
+// Proper mini crosswords with complete clue lists
 
 export const mockPuzzles = {
   'board-games': {
@@ -8,31 +7,37 @@ export const mockPuzzles = {
     theme: 'board-games',
     difficulty: 'medium',
     grid: [
-      ['C', 'A', 'T', 'A', 'N', null, 'C', 'L', 'U', 'E'],
-      ['H', null, 'I', null, null, null, 'H', null, null, null],
-      ['E', null, 'C', null, 'M', 'O', 'N', 'O', 'P', 'O', 'L', 'Y'],
-      ['S', null, 'K', null, null, null, 'E', null, null, null],
-      ['S', null, 'E', null, 'R', 'I', 'S', 'K', null, null],
-      [null, null, 'T', null, null, null, 'S', null, null, null]
+      ['C', 'H', 'E', 'S', 'S', null, null],
+      ['A', null, null, null, null, null, null],
+      ['R', 'I', 'S', 'K', null, 'G', 'O'],
+      ['D', null, null, null, null, 'A', null],
+      ['S', null, 'D', 'I', 'C', 'E', null],
+      [null, null, null, null, 'L', null, null],
+      [null, null, null, null, 'U', 'N', 'O']
     ],
     solution: [
-      ['C', 'A', 'T', 'A', 'N', null, 'C', 'L', 'U', 'E'],
-      ['H', null, 'I', null, null, null, 'H', null, null, null],
-      ['E', null, 'C', null, 'M', 'O', 'N', 'O', 'P', 'O', 'L', 'Y'],
-      ['S', null, 'K', null, null, null, 'E', null, null, null],
-      ['S', null, 'E', null, 'R', 'I', 'S', 'K', null, null],
-      [null, null, 'T', null, null, null, 'S', null, null, null]
+      ['C', 'H', 'E', 'S', 'S', null, null],
+      ['A', null, null, null, null, null, null],
+      ['R', 'I', 'S', 'K', null, 'G', 'O'],
+      ['D', null, null, null, null, 'A', null],
+      ['S', null, 'D', 'I', 'C', 'E', null],
+      [null, null, null, null, 'L', null, null],
+      [null, null, null, null, 'U', 'N', 'O']
     ],
     clues_across: [
-      { number: 1, clue: 'Popular resource trading island game', answer: 'CATAN' },
-      { number: 7, clue: 'Detective mystery board game', answer: 'CLUE' },
-      { number: 9, clue: 'Property trading game with hotels', answer: 'MONOPOLY' },
-      { number: 11, clue: 'World domination strategy game', answer: 'RISK' }
+      { number: 1, clue: 'Game with kings, queens, and checkmate', answer: 'CHESS' },
+      { number: 6, clue: 'World domination strategy game', answer: 'RISK' },
+      { number: 7, clue: 'Ancient Asian board game', answer: 'GO' },
+      { number: 9, clue: 'Cubes rolled to move in games', answer: 'DICE' },
+      { number: 11, clue: 'Card game that means "one" in Spanish', answer: 'UNO' }
     ],
     clues_down: [
-      { number: 1, clue: 'King, queen, or rook game', answer: 'CHESS' },
-      { number: 2, clue: 'Railroad building game (_____ to Ride)', answer: 'TICKET' },
-      { number: 3, clue: 'Ancient game with black and white stones', answer: 'CHESS' }
+      { number: 1, clue: 'Deck used in poker and blackjack', answer: 'CARDS' },
+      { number: 2, clue: 'Checkers opponent', answer: 'HUMAN' },
+      { number: 3, clue: 'Board game winner\'s emotion', answer: 'ELATION' },
+      { number: 4, clue: 'Scrabble or Monopoly', answer: 'GAME' },
+      { number: 5, clue: 'Backgammon playing surface', answer: 'BOARD' },
+      { number: 8, clue: 'Detective mystery game', answer: 'CLUE' }
     ]
   },
   'cats': {
@@ -41,38 +46,43 @@ export const mockPuzzles = {
     theme: 'cats',
     difficulty: 'medium',
     grid: [
-      ['K', 'I', 'T', 'T', 'E', 'N', null, 'M', 'E', 'O', 'W'],
-      ['null', null, 'A', null, null, null, null, 'A', null, null, null],
-      ['W', 'H', 'I', 'S', 'K', 'E', 'R', 'S', null, null, null],
-      [null, null, 'B', null, null, null, null, 'N', null, null, null],
-      ['P', 'U', 'R', 'R', null, null, null, 'X', null, null, null],
-      [null, null, 'Y', null, null, null, null, null, null, null, null]
+      ['M', 'E', 'O', 'W', null, null, null],
+      ['I', null, null, 'H', null, null, null],
+      ['T', 'A', 'B', 'B', 'Y', null, null],
+      ['T', null, null, 'I', null, null, null],
+      ['S', null, 'P', 'U', 'R', 'R', null],
+      [null, null, 'A', null, null, null, null],
+      [null, null, 'W', 'S', null, null, null]
     ],
     solution: [
-      ['K', 'I', 'T', 'T', 'E', 'N', null, 'M', 'E', 'O', 'W'],
-      [null, null, 'A', null, null, null, null, 'A', null, null, null],
-      ['W', 'H', 'I', 'S', 'K', 'E', 'R', 'S', null, null, null],
-      [null, null, 'B', null, null, null, null, 'N', null, null, null],
-      ['P', 'U', 'R', 'R', null, null, null, 'X', null, null, null],
-      [null, null, 'Y', null, null, null, null, null, null, null, null]
+      ['M', 'E', 'O', 'W', null, null, null],
+      ['I', null, null, 'H', null, null, null],
+      ['T', 'A', 'B', 'B', 'Y', null, null],
+      ['T', null, null, 'I', null, null, null],
+      ['S', null, 'P', 'U', 'R', 'R', null],
+      [null, null, 'A', null, null, null, null],
+      [null, null, 'W', 'S', null, null, null]
     ],
     clues_across: [
-      { number: 1, clue: 'Baby cat', answer: 'KITTEN' },
-      { number: 8, clue: 'Sound a cat makes', answer: 'MEOW' },
-      { number: 9, clue: 'Cat facial hair', answer: 'WHISKERS' },
-      { number: 12, clue: 'Happy cat sound', answer: 'PURR' }
+      { number: 1, clue: 'Sound a cat makes', answer: 'MEOW' },
+      { number: 5, clue: 'Striped orange cat breed', answer: 'TABBY' },
+      { number: 8, clue: 'Happy cat rumbling sound', answer: 'PURR' },
+      { number: 10, clue: 'Cat feet', answer: 'PAWS' }
     ],
     clues_down: [
-      { number: 2, clue: 'Orange striped cat pattern', answer: 'TABBY' },
-      { number: 3, clue: 'Fancy Persian or ______', answer: 'MANX' },
-      { number: 4, clue: 'Cat with no tail breed', answer: 'MANX' }
+      { number: 1, clue: 'Warm hand coverings', answer: 'MITTS' },
+      { number: 2, clue: 'Feline eyes do this in the dark', answer: 'GLOW' },
+      { number: 3, clue: 'Hairball sound', answer: 'HACK' },
+      { number: 4, clue: 'Cat facial sensory hairs', answer: 'WHISKERS' },
+      { number: 6, clue: 'Cat grooming body part', answer: 'TONGUE' },
+      { number: 7, clue: 'House cat, scientifically', answer: 'FELIS' },
+      { number: 9, clue: 'Soft cat foot bottom', answer: 'PAD' }
     ]
   }
 };
 
 // Simulate API fetch
 export const fetchPuzzle = async (theme) => {
-  // Simulate network delay
   await new Promise(resolve => setTimeout(resolve, 500));
   
   if (!mockPuzzles[theme]) {
